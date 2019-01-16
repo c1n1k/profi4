@@ -8,7 +8,7 @@ script:
 before_deploy:
   - mkdir deploy
   - find desktop.bundles/ \( -name '*.min.css' -or -name '*.html' -or -name '*.min.js' \) -exec mv {} deploy/ \;
-  - mv static nojekyll deploy/
+  - mv static .nojekyll deploy/
 
 deploy:
   provider: pages
