@@ -1,6 +1,6 @@
 {
   "author": "",
-  "name": "whitepaper-stub",
+  "name": "profi4",
   "version": "0.0.1",
   "browserslist": [
     "ie >= 10",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/whitepapertools/whitepaper-stub.git"
+    "url": "git://github.com/Miocene/profi4.git"
   },
   "engines": {
     "node": ">=4"
@@ -57,6 +57,6 @@
     "start": "enb server",
     "build": "enb make"
   },
-  "private": true,
+  "private": false,
   "dependencies": {}
 }
