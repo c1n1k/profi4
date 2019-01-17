@@ -5,7 +5,9 @@
 	cursor: pointer;
 	color: var(--color-typo-primary);
 	border: 1px solid #95A9BA;
-	&_size {
+    background: var(--color-bg-default);
+
+    &_size {
 		&_xs {
 			font-size: var(--size-typo-xs);
 			line-height: 20px;
@@ -13,10 +15,12 @@
 			border-radius: 99em;
 		}
 		&_s {
-			/*border: 1px solid #95A9BA;*/
+			color: var(--color-typo-primary) !important;
+            border: 1px solid #95A9BA !important;
+            background: var(--color-bg-default) !important;
 		}
 	}
-	&:hover {
+	/*&:hover {
 		color: var(--color-link);
-	}
+	}*/
 }

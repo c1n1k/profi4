@@ -35,7 +35,8 @@
 			{ block: 'pt-icon-plus', mods: { 'vertical-align': 'center' } },
 			{ block: 'pt-icon-plus', elem: 'block' },
 			{ block: 'pt-icon-plus', elem: 'icon', mods: { 'indent-r': 's' } },
-			{ block: 'pt-list', elem: 'item', mods: { border: 'top', 'space-v': ['xs', 'm'], 'indent-t': 's' }, }
+			{ block: 'pt-list', elem: 'item', mods: { border: 'top', 'space-v': ['xs', 'm'], 'indent-t': 's' }, },
+            { block: 'tpl-layout', elem: 'container', mods: { size: 'm', align: 'center' } },
 		]
 	}
 ]);

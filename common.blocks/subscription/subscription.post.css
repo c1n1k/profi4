@@ -1,0 +1,31 @@
+.subscription {
+    padding: 50px 180px;
+    background-image: linear-gradient(to top right, rgb(29, 116, 187), #86c5f7);
+    text-align: center;
+
+    &__header, .checkbox__text {
+        --color-typo-primary: white;
+        color: var(--color-typo-primary);
+    }
+
+    &__input {
+        height: 44px;
+        width: 100%;
+        box-sizing: border-box;
+        border: 0;
+        font-size: var(--size-typo-m);
+        color: var(--color-typo-primary);
+        padding: var(--space-l);
+        display: inline-block;
+    }
+    &__button {
+        height: 44px;
+        box-sizing: border-box;
+        line-height: 44px;
+        font-size: var(--size-typo-m);
+        color: white;
+        padding: 0 20px;
+        background: var(--color-bg-brand);
+        border: 0;
+    }
+}

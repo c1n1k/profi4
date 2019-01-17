@@ -1,11 +1,19 @@
 .search-section {
 	width: 100%;
 	display: block;
-	height: 60vh;
-	max-height: 330px;
 	background-image: url(moscow-city.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	background-position: center 37%;
+
+    &__content {
+        padding: 90px 80px 50px;
+        box-sizing: border-box;
+    }
+
+    &__tag-header {
+        --color-typo-primary: white;
+        opacity: 0.8;
+    }
 }

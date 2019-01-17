@@ -1,0 +1,32 @@
+.promo-search {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    box-sizing: border-box;
+    padding: var(--space-xs) var(--space-xs) var(--space-xs) var(--space-l);
+    margin-bottom: var(--space-m);
+    background: var(--color-bg-default);
+
+    &__input {
+        flex-basis: 100%;
+        font-size: var(--size-typo-m);
+        color: var(--color-typo-primary);
+        border: 0;
+
+        &:focus {
+            outline: none;
+        }
+    }
+    &__button {
+        height: 100%;
+        padding: var(--space-s) var(--space-xxl);
+        box-sizing: border-box;
+        background: var(--color-bg-brand);
+        fill: white;
+
+        &:hover {
+            cursor: pointer;
+            background: var(--color-bg-brand);
+        }
+    }
+}
